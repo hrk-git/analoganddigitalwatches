@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app1.js"></script>
+    <title>Digital Clock</title>
+    <style>
+        .digitalclock{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .hours{
+            border:5px solid black;
+            width:200px;
+            height: 200px;
+            font-size: 40px;
+            margin: 10px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+
+        }
+        .minutes{
+            border:5px solid black;
+            width:200px;
+            height: 200px;
+            font-size: 40px;
+            margin: 10px;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+
+        }
+        .seconds{
+            border:5px solid black;
+            width:200px;
+            height: 200px;
+            font-size: 40px;
+            margin: 10px;
+            float: left;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="digitalclock">
+
+
+        <div class="hours">
+            <script>
+                getHours();
+                
+            </script>
+    
+        </div>
+        <div class="minutes">
+            <script>
+                getMinutes();
+            </script>
+        </div>
+        <div class="seconds">
+            <script>
+                getSeconds();
+            </script>
+        </div>
+    </div>
+  
+    
+</body>
+</html>
